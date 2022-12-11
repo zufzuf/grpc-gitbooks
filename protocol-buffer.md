@@ -39,7 +39,52 @@ Begitu juga Protobuf yang merupakan payload / muatan / bentuk data yang digunaka
 
 ### Instalasi
 
+Sebelum menuju ke implementasi protobuf dengan GRPC. Anda harus menyiapkan beberapa aplikasi depedensi yaitu sebuah kompailer dari file **.proto** milik protobuf.
 
+{% hint style="info" %}
+Disini saya akan mempraktekan protocol buffer untuk bahasa pemograman golang.
+{% endhint %}
+
+Silahkan merujuk ke link berikut:
+
+{% embed url="https://github.com/protocolbuffers/protobuf/releases" %}
+Download Binnary Protoc Compiler
+{% endembed %}
+
+<figure><img src=".gitbook/assets/Web capture_12-12-2022_2264_github.com.jpeg" alt=""><figcaption><p>Github Releases Pages</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/Web capture_12-12-2022_21432_github.com.jpeg" alt=""><figcaption><p>List Binnary Protoc</p></figcaption></figure>
+
+Pilih salah satu compailer sesuai dengan arsitektur pada laptop / PC.
+
+#### :window: Windows 10 / 11
+
+Untuk instalasi pada OS Windows ada beberapa cara:
+
+* :chocolate\_bar: Package Manager Chocolatey
+
+Menggunakan package manager chocolatey merupakan cara instalasi yang sangat mudah.
+
+{% hint style="warning" %}
+Perlu di-ingat ! \
+protoc versi pada package manager ini terkadang terlambat untuk update versi terbaru pada releases github protocol buffer.
+{% endhint %}
+
+1\. Install Chocolatey
+
+{% embed url="https://docs.chocolatey.org/en-us/choco/setup" %}
+Docs Installation Chocolatey
+{% endembed %}
+
+2\. Kunjungi Website Community Chocolatey
+
+{% embed url="https://community.chocolatey.org/packages/protoc" %}
+Protoc Package
+{% endembed %}
+
+3\.&#x20;
+
+*
 
 ### Sumber
 
