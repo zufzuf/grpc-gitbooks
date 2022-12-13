@@ -1,8 +1,4 @@
----
-description: Wellcome Everybody
----
-
-# 🥳 Hello !
+# 🥳 Hello, Wellcome Everybody !
 
 ### Tujuan Dan Harapan
 
